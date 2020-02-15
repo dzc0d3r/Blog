@@ -1,5 +1,5 @@
 ---
-title: Uploading Our Minds
+title: Uploading Our Minds?
 date: "2020-02-15"
 ---
 
