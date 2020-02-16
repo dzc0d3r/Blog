@@ -4,9 +4,15 @@ module.exports = {
     title: `The Minimalist`,
     author: `Ashwin BS`,
     description: `A place to share thoughts.`,
-    siteUrl: `https://ashwin-op.github.io/Blog/`
+    siteUrl: `https://the-minimalist.now.sh/`
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-154861201-4',
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
