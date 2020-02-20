@@ -7,6 +7,8 @@ date: "2020-02-15"
 
 ![brain-uploading](./minduploading.jpg)
 
+<div align="justify">
+
 Achieving immortality has long been humanity’s holy grail. Ever since we first became aware of the fragility of our own existence, we’ve been looking for ways to cheat death and prolong our lives indefinitely. Although advancements in medicine have enabled us to significantly increase our lifespan, true immortality has remained out of reach. Achieving physical immortality may very well prove to be beyond our capabilities, but what about digital immortality?
 
 Imagine a future where nobody dies instead, our minds are uploaded to a digital world. They might live on in a realistic, simulated environment with avatar bodies, and could still call in and contribute to the biological world. Mind uploading has powerful appeal but what would it actually take to scan a person’s brain and upload their mind?
@@ -59,11 +61,14 @@ The 2045 Initiative has laid out its plan in three stages. The first stage invol
 <br>
 
 While mind uploading is theoretically possible, we’re likely hundreds of years away from the technology and scientific understanding that would make it a reality. And that reality would come with ethical and philosophical considerations:
+
 - Who would have access to mind uploading?
 - What rights would be accorded to uploaded minds?
 - How could this technology be abused?
 
 Even if we can eventually upload our minds, whether we should remains an open question.
+
+</div>
 
 <br>
 
