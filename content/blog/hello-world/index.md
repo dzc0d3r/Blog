@@ -18,3 +18,9 @@ The mind of ashwin is characterized by many things — most of which is incompre
 Delving in to the mind of ashwin may lead to some unwanted side effect such as Dizziness; drowsiness; dry mouth; fatigue; headache; nausea; nervousness; sore throat; and trouble sleeping. Do not read "Ashwin's mind" if you suffer from migranes or high blood pressure, as doing so may lead to an exacerbation of such conditions. Please note - some side effects of "Ashwin's mind" may not be reported. Always consult your doctor or healthcare specialist before reading "Ashwin's mind" . You may also report side effects to the FDA at http://www.fda.gov
 
 </div>
+
+<br>
+<br>
+<br>
+
+Until next post... Keep on thinking!

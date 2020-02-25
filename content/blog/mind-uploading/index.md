@@ -69,6 +69,11 @@ While mind uploading is theoretically possible, we’re likely hundreds of years
 Even if we can eventually upload our minds, whether we should remains an open question.
 
 </div>
+<br>
+<br>
+<br>
+
+Until next post... Keep on thinking!
 
 <br>
 
