@@ -79,7 +79,7 @@ A study by [Wansink, Kent and Hoch (1998)](http://foodpsychology.cornell.edu/sit
 
 ## Conclusion
 
-Ever heard of the saying, ```You only have one chance to make a first impression``` ?
+Ever heard of the saying, *You only have one chance to make a first impression* ?
 
 The above saying can also be taken as an Anchoring Effect. Whenever you meet someone for the first time, they start to form a mental image of you based on their perspective and how you interact. So, make it count!
 
