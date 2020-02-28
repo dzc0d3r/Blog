@@ -4,60 +4,28 @@
  *
  */
 
- @font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 900;
-  src: local('Playfair Display Black'), local('PlayfairDisplay-Black'),
-       url('./fonts/playfair-display.woff2') format('woff2'),
-       url('./fonts/playfair-display.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 900;
-  src: local('Lato Black'), local('Lato-Black'),
-       url('./fonts/lato-v14-latin-900.woff2') format('woff2'),
-       url('./fonts/lato-v14-latin-900.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'),
-       url('./fonts/lato-v14-latin-700.woff2') format('woff2'),
-       url('./fonts/lato-v14-latin-700.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'),
-       url('./fonts/lato-v14-latin-regular.woff2') format('woff2'),
-       url('./fonts/lato-v14-latin-regular.woff') format('woff');
-}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
 * {
   box-sizing: border-box;
   word-wrap: break-word;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Lato', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  font-size: 16px
+  font-size: 16px;
 }
 
-#___gatsby, #___gatsby > div{
+#___gatsby,
+#___gatsby > div {
   height: 100%;
   width: 100%;
 }
@@ -73,7 +41,9 @@ main {
   flex-grow: 1;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   flex-shrink: 0;
 }
 
@@ -100,7 +70,6 @@ code {
   }
 }
 
-
 /* MOBILE */
 @media only screen and (max-width: 1200px) {
   .container {
@@ -115,18 +84,18 @@ code {
   }
 }
 
-.container > h3, .bordered-title {
+.container > h3,
+.bordered-title {
   border-top: 4px solid black;
   padding-top: 6px;
 }
 
 @media only screen and (max-width: 600px) {
-  .container > h3, .bordered-title {
+  .container > h3,
+  .bordered-title {
     display: block;
   }
 }
-
-
 
 /**
  *
@@ -155,7 +124,6 @@ code {
   margin-bottom: 16px;
 }
 
-
 /* MOBILE */
 @media only screen and (max-width: 1200px) {
   .block {
@@ -164,38 +132,44 @@ code {
   }
 }
 
-
 /**
  *
  * TYPOGRAPHY
  *
  */
 
-h1, h2, h3, h4, h5, h6, p, ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  font-family: 'Playfair Display';
+  font-family: "Open Sans";
   line-height: 64px;
-  font-size: 64px;
+  font-size: 46px;
 }
 
 /* MOBILE */
 @media only screen and (max-width: 500px) {
   h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 34px;
 }
 
 h3 {
   display: inline-block;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 h4 {
@@ -216,7 +190,7 @@ h5 {
 }
 
 .separator::before {
-  content: '/'
+  content: "/";
 }
 
 .chip {
@@ -237,7 +211,6 @@ a {
   color: black;
   text-decoration: none;
 }
-
 
 /**
  *
@@ -284,7 +257,6 @@ button.white:hover {
   transform: translateY(-2px);
 }
 
-
 /* LIST */
 
 header ul {
@@ -294,21 +266,19 @@ header ul {
   display: inline-block;
 }
 
-
 /* CARDS */
 
 .card {
   padding: 30px;
   margin-bottom: 10px;
   border-radius: 8px;
-  box-shadow: 0 4px 4px rgba(0,0,0,.12);
-  transition: box-shadow .1s;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.1s;
 }
 
 .card:hover {
-  box-shadow: 0 6px 6px rgba(0,0,0,.12);
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.12);
 }
-
 
 /**
  *
@@ -348,24 +318,23 @@ header ul {
   }
 }
 
-
 /**
  *
  * Article
  *
  */
 
- .table-of-contents p {
-   margin: 0 !important;
- }
+.table-of-contents p {
+  margin: 0 !important;
+}
 
- .table-of-contents {
-   padding-bottom: 0.3em;
-   margin-bottom: 32px;
-   border-bottom: 1px solid rgb(234, 236, 239);
- }
+.table-of-contents {
+  padding-bottom: 0.3em;
+  margin-bottom: 32px;
+  border-bottom: 1px solid rgb(234, 236, 239);
+}
 
- .articles .block {
+.articles .block {
   flex-direction: column;
 }
 
@@ -432,7 +401,7 @@ header ul {
 }
 
 .article h3 {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 900;
   margin-bottom: 6px;
 }
@@ -463,7 +432,6 @@ header ul {
   margin: 0 0 24px 0;
 }
 
-
 /**
  *
  * BUTTON
@@ -480,7 +448,7 @@ header ul {
 
 .pill::before {
   transition: all 0.4s;
-  content: '';
+  content: "";
   width: 50%;
   height: 100%;
   background: black;
@@ -504,7 +472,6 @@ header ul {
   color: #888;
   mix-blend-mode: screen;
 }
-
 
 /**
  *
@@ -542,7 +509,6 @@ header img {
   margin-left: 16px;
 }
 
-
 /**
  *
  * Hero
@@ -571,11 +537,10 @@ header img {
 
 .hero .circle.overlap {
   transform: skewX(-50deg);
-  border: 10px solid rgba(0,0,0,.1);
+  border: 10px solid rgba(0, 0, 0, 0.1);
   border-top: none;
   pointer-events: none;
 }
-
 
 /**
  *
@@ -595,7 +560,7 @@ header img {
   }
 
   .bar::before {
-    content: '';
+    content: "";
     position: absolute;
     height: 64px;
     width: 4px;
@@ -603,24 +568,22 @@ header img {
     top: 0;
     animation: translationY ease 2.5s infinite;
   }
-  
+
   @keyframes translationY {
     from {
       transform: translateY(-32px);
     }
-    to  {
+    to {
       transform: translateY(352px);
     }
   }
 }
-
 
 /* CIRCLE */
 
 .hero .circle {
   right: 0;
 }
-
 
 /**
  *
@@ -659,7 +622,7 @@ footer .container > div a:hover {
 }
 
 footer div a img {
-  height: 100%; 
+  height: 100%;
 }
 
 footer p {
@@ -676,8 +639,8 @@ footer ul {
   align-items: center;
 }
 
-footer a, footer p {
-  font-size: 17px;
+footer a,
+footer p {
   color: white;
 }
 

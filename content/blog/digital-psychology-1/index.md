@@ -7,7 +7,7 @@ date: "2020-02-25"
 
 ## What is Digital Psychology?
 
-![digital-psychology](./photo-1.jpg)
+![digital-psychology](./photo-1.png)
 
 Digital psychology is the application of behavioural science principles through interactive media. Research shows that most principles of influence, from person-to-person psychology, also operate from computer-to-person, or between people using technology to mediate and moderate the relation.
 
