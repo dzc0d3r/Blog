@@ -273,11 +273,14 @@ header ul {
   margin-bottom: 10px;
   border-radius: 8px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12);
-  transition: box-shadow 0.1s;
+  /* transition: box-shadow 0.1s; */
+  transition: all 0.3s ease-in-out;
 }
 
 .card:hover {
-  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /**
