@@ -1,42 +1,20 @@
 {
-  "name": "ashwin-blog",
   "private": true,
-  "description": "A place to share my thoughts",
-  "version": "1.0.0",
+  "name": "the-minimalist",
+  "author": "Ashwin",
+  "version": "2.0.0",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve"
+    "dev": "gatsby develop",
+    "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^2.19.21",
-    "gatsby-image": "^2.2.41",
-    "gatsby-plugin-feed": "^2.3.27",
-    "gatsby-plugin-google-analytics": "^2.1.36",
-    "gatsby-plugin-react-helmet": "^3.1.22",
-    "gatsby-plugin-remove-serviceworker": "^1.0.0",
-    "gatsby-plugin-sharp": "^2.4.5",
-    "gatsby-plugin-typography": "^2.3.22",
-    "gatsby-remark-autolink-headers": "^2.1.24",
-    "gatsby-remark-copy-linked-files": "^2.1.37",
-    "gatsby-remark-external-links": "^0.0.4",
-    "gatsby-remark-images": "^3.1.44",
-    "gatsby-remark-prismjs": "^3.3.31",
-    "gatsby-remark-responsive-iframe": "^2.2.32",
-    "gatsby-remark-smartypants": "^2.1.21",
-    "gatsby-source-filesystem": "^2.1.48",
-    "gatsby-transformer-remark": "^2.6.53",
-    "gatsby-transformer-sharp": "^2.3.14",
-    "horizon-prismjs-theme": "^1.0.4",
-    "prismjs": "^1.19.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "react-spring": "^8.0.27",
-    "react-typography": "^0.16.19",
-    "typescript": "^3.8.2",
-    "typography": "^0.16.19"
-  },
-  "license": "MIT"
+    "@narative/gatsby-theme-novela": "^0.*",
+    "gatsby": "^2.13.41",
+    "gatsby-plugin-manifest": "^2.2.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.8.3"
+  }
 }
