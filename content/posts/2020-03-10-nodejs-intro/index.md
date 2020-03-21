@@ -76,7 +76,7 @@ undefined
 > sayHi();
 'Hi!'
 > 10 + 10
-20           
+20
 ```
 
 Or test by creating a JavaScript file such as test.js and then adding the following code
@@ -99,7 +99,7 @@ node test.js
 The result will be as follows
 
 ```javascript
-Hello Node.js
+Hello, World!
 Hi!
 ```
 
@@ -122,7 +122,7 @@ server.listen(port, hostname, () => {
 });
 ```
 
-Create a file named app.js containing the above contents, then run Node on the command line with the command:
+Create a file named app.js containing the above contents, then run it on the command line with the command:
 
 ```javascript
 node app.js
@@ -131,9 +131,9 @@ node app.js
 Visit http://localhost:3000 and you will see a message saying "Hello World".
 
 Meaning of some keywords:
- - `require('http')` : Imports the http module which is the main module of Node.js.
+ - `require('http')` : Imports the http module which is the main module of Node.js
  - `createServer()` : Creates a server with the parameters request and response
- - `.setHeader()` : To specify content type
+ - `.setHeader()` : To specify the content type
  - `.end()` : Is the end of the response and the word "Hello World"
  - `.listen()` : To set the port and hostname of the Web Server (Hostname is optional)
 
@@ -142,7 +142,7 @@ Meaning of some keywords:
 
 Now, let's start the process of writing Node.js using the built-in module called fs (File System).
 
-We will create a project folder inside which there are two files, namely:
+We'll create a project folder with two files, namely:
  - **package.json**: A file that specifies the project name, version of our project, as well as other dependencies.
  - **app.js**: The main file where the code will be written. (Give any name)
 
