@@ -222,7 +222,7 @@ When the path is a directory, the behavior of `fs.readFile()` and `fs.readFileSy
 
 > The `fs.readFile()` function buffers the entire file. To minimize memory costs, when possible prefer streaming via `fs.createReadStream()`. Refer to the docs for more information.
 
-### Callback Function
+## Callback Function
 
 You might be wondering what is a callback function, why it is used,... etc.
 
@@ -288,7 +288,7 @@ console.log("file: ", file);
 
 In short, because async.
 
-In the above example, `file` will be undefined when we try to log it, because `fs.readFile` won’t be done fetching before we get to the console.log().
+In the above example, `file` will be undefined when we try to log it, because `fs.readFile` won’t be done fetching before we get to the `console.log()`.
 
 But, this
 
@@ -311,15 +311,15 @@ Before you go on to get that hands-on experience, let me introduce you to the ne
 As mentioned before, npm (Node Package Manager) is a wizard that manages Node's package for us. **npm** includes a CLI (Command Line Client) that can be used to download and install open-source libraries/packages for your projects. Here is an example
 
 ```javascript
-npm install FILENAME
+npm install PACKAGENAME
 ```
 
-The packages of FILENAME will be installed in the current directory in a folder named node_modules. You can check out the packages at [npmjs](https://www.npmjs.com/).
+The packages of `PACKAGENAME` will be installed in the current directory in a folder named node_modules. You can check out the packages at [npmjs](https://www.npmjs.com/).
 
 
 ## Conclusion
 
-In this article, we learnt about what is node.js, what are its functionalities, how to use it. We also learnt about what is npm and some basic things about http and fs modules. Hopefully, this article provides a good starting point for your journey in node.js!
+In this article, we learnt about what is Node.js, what are its functionalities, how to use it. We also learnt about what is npm and some basic things about http and fs modules. Hopefully, this article provides a good starting point for your journey in Node.js!
 
 
 Keep on thinking!

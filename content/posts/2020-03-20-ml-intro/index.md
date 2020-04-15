@@ -1,5 +1,5 @@
 ---
-title: An introduction to Machine Learning
+title: An Introduction to Machine Learning
 author: Ashwin
 date: 2020-03-20
 hero: ./images/cover.jpg
